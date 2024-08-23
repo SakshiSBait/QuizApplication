@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    background-image: linear-gradient(rgb(189, 36, 249), rgb(99, 50, 247));
+    grid-template-rows:  10% 80% 10%;
+    /* rows for height columns for width:  */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem;
+    border-bottom: 5px solid white;
+    align-items: center;
+    
+}
+#wel{
+    font-size: 2rem;
+    color: rgb(251, 246, 246);
+    font-weight: 700;
+}
+.logo{
+    background-color: rgb(10, 251, 231);
+    border-radius: 80px;
+    padding: 0.6rem;
+    font-size: 1.5rem;
+    border: 3px solid rgb(11, 11, 11);
+    color: black;
+}
+.logo1{
+    background-color: rgb(0, 106, 255);
+    color:white;
+    font-size: 1.5rem;
+    border: 3px solid white;
+}
+header>div>h3{
+    color:white;
+    font-size: 1.5rem;
+}
+header>div>h3>span{
+    color: white;
+    font-size: 1.5rem;
+}
+main{
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+}
+
+#question-cont{
+    padding-left: 1rem;
+    border-right: 3px solid grey;
+    padding-top: 1rem;
+    background-color: white;
+}
+
+#question-cont>h2{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+#actual-question{
+    padding-left: 2rem;
+}
+
+#option-cont{
+    padding: 0.5rem 1rem;
+    background-color: white;
+}
+
+#btn-cont{
+   padding:0.5rem 1rem ;
+   
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+
+#legends{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+}
+#legends>h3{
+    color: white;
+}
+#legends>h3>span{
+    margin-right: 0.5rem;
+    color: white;
+}
+
+footer{
+   display: grid; 
+   grid-template-columns:90% 10%;
+   border-top: 3px solid white;
+   padding: 0.5rem 1rem;
+}
+
+footer button{
+    padding: 1rem;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+
+}
+
+footer button:active
+{
+    background-color: black;
+}
+
+#actual-btn{
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    gap: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+#actual-btn>button{
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#actual-btn>button:active{
+    background-color: rgb(147, 153, 247);
+    border: none;
+    border-radius: 5px;
+}
+
+#actual-option{
+    display: grid;
+    grid-template-columns: repeat(2,25%);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#actual-option>input{
+    height: 1rem;
+}

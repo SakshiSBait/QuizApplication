@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+main>div{
+    padding: 1rem;
+    margin: 1rem;
+
+}
+main>.crct{
+    /* background-color: green; */
+    border: 4px solid green;
+    border-radius: 10px;
+
+}
+main>.wrong{
+    /* background-color: red; */
+    border: 4px solid rgb(243, 9, 5);
+    border-radius: 10px;
+}
+
+main>div>p{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+main>div>h3{
+    margin-bottom: 1rem;
+    font-size:1.2rem
+}
+main>div>h4{
+    font-size: 1.4rem;
+    color: rgb(6, 138, 44);
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    /* background-color: rgb(222, 215, 215);
+    border-radius:20px; */
+}
+header>h1{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+header>h1>span{
+    color: rgb(46, 14, 224);
+}
+header>h2{
+    padding-left: 1rem;
+}
+header>h2>span{
+    margin-left: 1rem;
+    color: rgb(46, 14, 224);
+}
+#outerdiv{
+    width: 70%;
+    background-color: rgb(255, 17, 0);
+    height: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    border: none;
+}
+
+#innerdiv{
+    width: 0%;
+    height: 1.5rem;
+    background-color: green;
+    border-radius: 20px;
+
+     position: relative;
+
+}
+#innerdiv>span{
+position: absolute;
+top: 20%;
+left: 50%;
+color: white;
+display: none;}

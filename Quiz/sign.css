@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    width: 22%;
+    margin: auto;
+    background-image: linear-gradient(rgb(189, 36, 249), rgb(99, 50, 247));
+    border-radius: 5px;
+    padding: 2rem;
+    margin-top: 2rem;
+    
+}
+input,label,button{
+    display: block;
+   margin-top: 0.5rem;
+   width: 100%;
+}
+button{
+    padding: 0.5rem;
+    background-color: rgb(20, 19, 18);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 1rem 0rem 1rem 0rem;
+
+}
+button:active{
+    background-color: rgb(132, 128, 125);
+}
+label{
+    color:white
+}
+input{
+    border:2px solid white;
+    border-radius: 4px;
+    padding: 0.4rem;
+    
+}
+span{
+    color: red;
+}
